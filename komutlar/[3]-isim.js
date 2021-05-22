@@ -1,5 +1,5 @@
 const { MessageEmbed } = require('discord.js')//
-const data = require('quick.db')//
+const data = require('quick.db')////
 const settings = require('../managment/settings.json')//
 exports.run = async (client, message, args) => {
 if(!message.member.roles.cache.get(settings.roller.teyitcirol) && !message.member.hasPermission('ADMINISTRATOR'))
